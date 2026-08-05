@@ -1,5 +1,5 @@
 import StoryChapter from "@/components/story/StoryChapter";
-import { story } from "@/data/story";
+import { story } from "@/data/story/homepage";
 
 export default function Journey() {
   return (
