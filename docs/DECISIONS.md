@@ -19,7 +19,11 @@
 
 This document records architectural and project decisions that affect the long-term direction of the repository.
 
-Every significant decision should be documented here before implementation.
+Every significant decision should be documented before implementation.
+
+This document is intended to record **decisions**, not temporary project progress.
+
+Project milestones are reflected through Git history and repository development, while long-term standards are preserved here.
 
 ---
 
@@ -93,13 +97,11 @@ Only after the website is finalized:
 
 ## Working Principle
 
-Documentation supports development.
+Documentation establishes the project's foundation.
 
-Development must not stop because documentation can be improved.
+Once Version 1.0 documentation is complete, development becomes the primary focus.
 
-Once a document reaches Version 1.0, development continues.
-
-Future improvements are recorded in this document and applied during scheduled revisions instead of interrupting active development.
+Future architectural improvements are recorded in this document without interrupting normal development.
 
 ---
 
@@ -107,35 +109,60 @@ Future improvements are recorded in this document and applied during scheduled r
 
 **Date:** 2026-08-06
 
-## Phase 1 Completed
+## Homepage Build Strategy
 
-The Foundation Phase has been completed.
+During **Phase 2**, the primary objective is to complete the homepage structure before redesigning individual sections.
 
-The following project documents are now considered Version 1.0 and become the official reference for the repository:
+Each section should be implemented with production-quality code and complete content, but visual refinement should be deferred unless there is a functional or architectural issue.
 
-- PROJECT_MANUAL.md
-- ARCHITECTURE.md
-- COMPONENT_RULES.md
-- DESIGN_SYSTEM.md
-- DEVELOPMENT_WORKFLOW.md
-- DECISIONS.md
+This approach prevents repeated redesigns of unfinished work and ensures continuous project progress.
 
-From this point onward, documentation will only be updated when a new architectural decision is required.
+---
 
-The primary focus of the project now shifts to:
+### Phase 2 Priorities
 
-## Phase 2 — Website Build
+- Build every planned homepage section.
+- Verify each section after implementation.
+- Maintain consistent design standards.
+- Avoid major visual redesigns of completed sections.
+- Continue development until the homepage structure is complete.
 
-Priority:
+---
 
-1. Homepage
-2. About
-3. Ecosystem
-4. Brands
-5. Technology
-6. Contact
-7. Footer
+### Homepage Review Pass
 
-The objective is to complete and launch **soyumsogood.com** before moving to the Polish and Launch phases.
+Once every homepage section has been completed, a dedicated review pass will be performed.
 
-Documentation now supports development rather than leading it.
+This review includes:
+
+- Storytelling flow
+- Visual hierarchy
+- Section transitions
+- Layout variation
+- Typography refinement
+- Card consistency
+- Spacing improvements
+- Animation polish
+- Responsive refinement
+
+The homepage should be evaluated as one complete experience rather than as individual sections.
+
+---
+
+## Working Principle
+
+Build first.
+
+Review second.
+
+Polish last.
+
+Completing the website provides greater long-term value than repeatedly refining unfinished sections.
+
+---
+
+# Long-Term Principle
+
+Every decision recorded in this document should improve the project's long-term quality, consistency, scalability, and maintainability.
+
+This document records architectural direction—not temporary project progress.
