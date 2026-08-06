@@ -1,159 +1,206 @@
 # So Yum! So Good!
-# PROJECT MANUAL
-
-Version: 1.0
+# Project Manual
 
 ---
 
-# Project Vision
+# Document Information
 
-So Yum! So Good! is not a website.
+**Version:** 1.0
 
-It is the digital platform for the So Yum! So Good! ecosystem.
+**Status:** Active
 
-This repository will eventually power:
+**Last Updated:** 2026-08-06
+
+**Owner:** So Yum! So Good!
+
+---
+
+# 1. Purpose
+
+This repository contains the official website and future digital ecosystem for **So Yum! So Good!™**.
+
+The purpose of this project is to build a premium corporate website that represents the company's vision, brands, technology, people, and long-term ecosystem.
+
+Every feature developed inside this repository must support that vision.
+
+---
+
+# 2. Vision
+
+Build India's most admired food ecosystem by combining:
+
+- Great Food
+- Great Brands
+- Great Technology
+- Great People
+
+---
+
+# 3. Mission
+
+Create memorable food experiences through scalable restaurant brands, modern technology, and operational excellence.
+
+---
+
+# 4. Project Goals
+
+The website should clearly communicate:
+
+- Company Story
+- Brand Portfolio
+- Business Ecosystem
+- Technology
+- Culture
+- Future Vision
+- Growth Journey
+
+Every page should strengthen the identity of **So Yum! So Good!** as a modern food company.
+
+---
+
+# 5. Scope
+
+This repository contains:
 
 - Corporate Website
-- Restaurant Brands
-- Technology Platform
-- Partner Platform
+- Company Information
+- Brand Showcase
+- Technology Showcase
 - Careers
-- News
-- Future CMS
-- Future Admin Portal
+- Investor & Partner Information
+- Future Ecosystem Pages
 
-Every decision should support long-term growth.
+This repository does **NOT** contain:
 
----
+- POS
+- Online Ordering
+- Admin Panel
+- Restaurant Management
+- Customer Accounts
+- Inventory Management
+- Delivery Operations
 
-# Core Principle
+These systems are developed and maintained in their own dedicated repositories.
 
-Never build for today.
+Examples:
 
-Always build for the company we want to become.
-
----
-
-# Development Philosophy
-
-1. Reusable over duplicated.
-2. Simple over clever.
-3. Consistent over unique.
-4. Performance first.
-5. Accessibility always.
-6. Mobile first.
-7. SEO friendly.
-8. Future-proof architecture.
+- yumexpress.in
+- dcdnation.com
 
 ---
 
-# Folder Structure
+# 6. Development Philosophy
 
-src/
+We build for the long term.
 
-- app/
-- components/
-- constants/
-- config/
-- data/
-- hooks/
-- lib/
-- services/
-- store/
-- styles/
-- types/
-- utils/
+Every technical decision should prioritize:
+
+- Simplicity
+- Scalability
+- Maintainability
+- Consistency
+- Performance
+- Readability
+
+Short-term shortcuts should never compromise long-term quality.
 
 ---
 
-# Component Rules
+# 7. Documentation First
 
-Every component should:
+Documentation always comes before implementation.
 
-- Have a single responsibility.
-- Be reusable.
-- Be typed.
-- Never contain hardcoded business data.
-- Receive data through props whenever possible.
+No feature should be developed before its architecture has been discussed and documented.
 
----
+Project Workflow:
 
-# Design Rules
+Discuss
 
-- Plenty of whitespace.
-- Large typography.
-- Minimal colors.
-- Premium appearance.
-- Smooth animations.
-- Consistent spacing.
+↓
 
----
+Document
 
-# Code Rules
+↓
 
-- TypeScript only.
-- Functional Components only.
-- Named folders.
-- No duplicate code.
-- No inline styles.
-- TailwindCSS only.
+Review
+
+↓
+
+Implement
+
+↓
+
+Verify
+
+↓
+
+Commit
 
 ---
 
-# Git Workflow
+# 8. Source of Truth
 
-Every completed task:
+The documentation inside this repository is the official source of truth.
 
-git add .
+Neither memory nor previous conversations override documented decisions.
 
-git commit -m "Meaningful commit message"
+If documentation and implementation disagree:
 
-git push
+Documentation must be reviewed first.
 
----
+Code should never define architecture.
 
-# Naming Convention
-
-Components
-
-PascalCase
-
-Example
-
-Header.tsx
-
-Hero.tsx
-
-BrandCard.tsx
-
-Variables
-
-camelCase
-
-Constants
-
-UPPER_CASE
+Architecture defines the code.
 
 ---
 
-# Project Goal
+# 9. Repository Structure
 
-Build one of India's most premium food company websites.
+This repository follows a documented architecture.
 
-Not by copying others.
+Detailed information is maintained in:
 
-By creating our own identity.
+- ARCHITECTURE.md
+- COMPONENT_RULES.md
+- DESIGN_SYSTEM.md
+- DEVELOPMENT_WORKFLOW.md
+- DECISIONS.md
 
----
-
-# Long-Term Vision
-
-This repository should remain scalable for the next 10+ years.
-
-Every feature should strengthen the So Yum! So Good! ecosystem.
-
-Never sacrifice long-term quality for short-term speed.
+Every contributor should follow these documents before implementing new features.
 
 ---
 
-END OF DOCUMENT
+# 10. Golden Rule
+
+Documentation leads.
+
+Architecture leads.
+
+Code follows.
+
+Never implement first and document later.
+
+---
+
+# 11. Long-Term Principle
+
+This repository is expected to evolve for many years.
+
+Every decision should make the project:
+
+- Easier to understand
+- Easier to maintain
+- Easier to scale
+- Easier for future developers to contribute
+
+Whenever uncertainty exists, choose the solution that improves long-term maintainability over short-term convenience.
+
+---
+
+# 12. Project Commitment
+
+So Yum! So Good! is not being built as a temporary website.
+
+It is the digital foundation of a long-term company.
+
+Every file, every component, every decision, and every line of code should reflect that commitment.
