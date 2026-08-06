@@ -15,7 +15,7 @@ export default function Hero() {
         </Eyebrow>
 
         <H1 className="mx-auto mb-8 max-w-5xl">
-          Building India's Next Generation
+          Building India&apos;s Next Generation
           <br />
           of Food Brands
         </H1>

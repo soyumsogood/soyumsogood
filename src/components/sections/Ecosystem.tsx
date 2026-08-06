@@ -61,7 +61,7 @@ export default function Ecosystem() {
           </h3>
 
           <p className="text-lg leading-8 text-gray-300">
-            We're building digital products, operational systems,
+            We&apos;re building digital products, operational systems,
             automation, and AI-driven tools that make our brands
             smarter every day.
           </p>
@@ -74,7 +74,7 @@ export default function Ecosystem() {
           </h3>
 
           <p className="leading-8 text-gray-600">
-            Build India's most admired food ecosystem.
+            Build India&apos;s most admired food ecosystem.
           </p>
         </div>
 

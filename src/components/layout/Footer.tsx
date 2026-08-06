@@ -17,7 +17,7 @@ export default function Footer() {
               </div>
 
               <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-[#F8CB34]">
-                Building India's Next Generation of Food Brands.
+                Building India&apos;s Next Generation of Food Brands.
               </p>
 
               <p className="leading-8 text-gray-400">

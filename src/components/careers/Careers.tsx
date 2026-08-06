@@ -34,10 +34,10 @@ export default function Careers() {
           </H2>
 
           <Body>
-            Behind every successful brand is an exceptional team. We're looking
+            Behind every successful brand is an exceptional team. We&apos;re looking
             for passionate people who want to create memorable customer
             experiences, embrace innovation, and grow with us as we build
-            India's next generation of food brands.
+            India&apos;s next generation of food brands.
           </Body>
         </div>
 

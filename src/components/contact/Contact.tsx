@@ -12,12 +12,12 @@ export default function Contact() {
           </p>
 
           <H2 className="mb-6 text-white">
-            Let's Build the Future of Food Together.
+            Let&apos;s Build the Future of Food Together.
           </H2>
 
           <Body className="text-gray-300">
-            Whether you're interested in partnering with us, joining our team,
-            investing in our vision, or simply starting a conversation, we'd
+            Whether you&apos;re interested in partnering with us, joining our team,
+            investing in our vision, or simply starting a conversation, we&apos;d
             love to hear from you.
           </Body>
         </div>
