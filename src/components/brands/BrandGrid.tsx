@@ -29,7 +29,7 @@ const brands = [
     tagline: "Coming Soon",
     description:
       "Our innovation pipeline includes multiple food concepts across emerging categories. Every future brand will follow the So Yum! So Good! philosophy of scalable systems, operational excellence, and exceptional customer experiences.",
-    color: "#4B5563",
+    color: "#6B7280",
     website: "#",
     status: "In Development",
   },
@@ -37,18 +37,18 @@ const brands = [
 
 export default function BrandGrid() {
   return (
-    <Section className="bg-white">
+    <Section className="bg-gray-50">
       <Container>
-        <div className="mb-16 text-center">
+        <div className="mx-auto mb-16 max-w-3xl text-center">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-[#F8CB34]">
             Brand Portfolio
           </p>
 
-          <H2 className="mb-6 text-gray-900">
+          <H2 className="mb-6">
             Our Growing Ecosystem
           </H2>
 
-          <Body className="mx-auto max-w-3xl text-gray-600">
+          <Body>
             Every brand serves a different customer need while sharing the same
             commitment to quality, innovation, and operational excellence.
           </Body>
@@ -65,11 +65,11 @@ export default function BrandGrid() {
                 style={{ backgroundColor: brand.color }}
               />
 
-              <div className="mb-3 inline-flex w-fit rounded-full bg-gray-100 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-gray-700">
+              <div className="mb-4 inline-flex w-fit rounded-full bg-gray-100 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-gray-700">
                 {brand.status}
               </div>
 
-              <H3 className="mb-2 text-gray-900">
+              <H3 className="mb-2">
                 {brand.name}
               </H3>
 
@@ -80,15 +80,15 @@ export default function BrandGrid() {
                 {brand.tagline}
               </p>
 
-              <Body className="flex-grow text-gray-600">
+              <Body className="flex-grow">
                 {brand.description}
               </Body>
 
               <div className="mt-8">
                 {brand.website === "#" ? (
-                  <Button disabled>
-                    Coming Soon
-                  </Button>
+                  <div className="inline-flex cursor-not-allowed rounded-xl bg-gray-200 px-6 py-3 font-semibold text-gray-500">
+  Coming Soon
+</div>
                 ) : (
                   <Link
                     href={brand.website}
