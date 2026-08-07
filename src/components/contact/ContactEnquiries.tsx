@@ -1,6 +1,9 @@
+import Link from "next/link";
+
 import Section from "@/components/ui/Section";
 import Container from "@/components/ui/Container";
 import { Eyebrow, H2, H3, Body } from "@/components/ui/Typography";
+import Button from "@/components/ui/Button";
 import { contact } from "@/data/contact/contact";
 
 export default function ContactEnquiries() {
@@ -25,22 +28,31 @@ export default function ContactEnquiries() {
           {contact.enquiries.map((enquiry) => (
             <div
               key={enquiry.title}
-              className="rounded-3xl border border-gray-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg md:p-10"
+              className="flex h-full flex-col rounded-3xl border border-gray-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg md:p-10"
             >
               <H3 className="mb-4">
                 {enquiry.title}
               </H3>
 
-              <Body className="mb-6">
+              <Body className="flex-grow">
                 {enquiry.description}
               </Body>
 
-              <a
-                href={`mailto:${enquiry.email}`}
-                className="inline-flex items-center text-sm font-semibold text-[#C8102E] transition hover:underline"
-              >
-                {enquiry.email}
-              </a>
+              <div className="mt-8">
+                {enquiry.title === "Careers" ? (
+                  <Link href="/careers">
+                    <Button>
+                      {enquiry.button}
+                    </Button>
+                  </Link>
+                ) : (
+                  <Link href="/contact">
+                    <Button>
+                      {enquiry.button}
+                    </Button>
+                  </Link>
+                )}
+              </div>
             </div>
           ))}
         </div>

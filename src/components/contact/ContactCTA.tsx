@@ -23,7 +23,7 @@ export default function ContactCTA() {
             {contact.cta.description}
           </Body>
 
-          <Link href="mailto:hello@soyumsogood.com">
+          <Link href="/contact">
             <Button>
               {contact.cta.button}
             </Button>

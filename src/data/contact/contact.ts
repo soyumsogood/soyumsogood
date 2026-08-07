@@ -17,25 +17,25 @@ export const contact = {
       title: "Business Partnerships",
       description:
         "Interested in partnering with So Yum! So Good! across brands, operations, technology, or business development?",
-      email: "partnerships@soyumsogood.com",
+      button: "Send Enquiry",
     },
     {
       title: "Brand & Franchise Enquiries",
       description:
         "Have an opportunity related to our existing or future restaurant brands?",
-      email: "brands@soyumsogood.com",
+      button: "Send Enquiry",
     },
     {
       title: "Careers",
       description:
         "Interested in joining our team and helping build the next generation of food brands?",
-      email: "careers@soyumsogood.com",
+      button: "Explore Careers",
     },
     {
       title: "General Enquiries",
       description:
         "For general questions about So Yum! So Good! and our businesses.",
-      email: "hello@soyumsogood.com",
+      button: "Send Enquiry",
     },
   ],
 
@@ -50,6 +50,6 @@ export const contact = {
     title: "Have An Idea?",
     description:
       "Great businesses often begin with a conversation. Tell us what you have in mind and let's explore what we can build together.",
-    button: "Get In Touch",
+    button: "Start A Conversation",
   },
 } as const;
