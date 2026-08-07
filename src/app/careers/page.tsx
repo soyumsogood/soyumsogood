@@ -1,7 +1,19 @@
+import CareersHero from "@/components/careers/CareersHero";
+import WhyJoin from "@/components/careers/WhyJoin";
+import OpenPositions from "@/components/careers/OpenPositions";
+
+export const metadata = {
+  title: "Careers | So Yum! So Good!",
+  description:
+    "Join So Yum! So Good! and help build the next generation of food brands in India.",
+};
+
 export default function CareersPage() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1>Careers Page Coming Soon</h1>
+    <main>
+      <CareersHero />
+      <WhyJoin />
+      <OpenPositions />
     </main>
   );
 }
