@@ -1,7 +1,19 @@
+import TechnologyHero from "@/components/technology/TechnologyHero";
+import Capabilities from "@/components/technology/Capabilities";
+import Innovation from "@/components/technology/Innovation";
+
+export const metadata = {
+  title: "Technology | So Yum! So Good!",
+  description:
+    "Discover how So Yum! So Good! uses technology, data, automation, and operational systems to build scalable food brands.",
+};
+
 export default function TechnologyPage() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1>Technology Page Coming Soon</h1>
+    <main>
+      <TechnologyHero />
+      <Capabilities />
+      <Innovation />
     </main>
   );
 }
