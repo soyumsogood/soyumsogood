@@ -5,7 +5,7 @@ import FutureBrands from "@/components/brands/FutureBrands";
 export const metadata = {
   title: "Brands | So Yum! So Good!",
   description:
-    "Discover the portfolio of brands built by So Yum! So Good!, including DCD™, Yum! Express™, and our future food concepts.",
+    "Discover the food brands built by So Yum! So Good!, including DCD™ and Yum! Express™, and explore our future food concepts.",
 };
 
 export default function BrandsPage() {
