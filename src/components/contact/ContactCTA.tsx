@@ -1,17 +1,14 @@
-import Link from "next/link";
-
 import Section from "@/components/ui/Section";
 import Container from "@/components/ui/Container";
 import { H2, Body } from "@/components/ui/Typography";
-import Button from "@/components/ui/Button";
 import { contact } from "@/data/contact/contact";
 
 export default function ContactCTA() {
   return (
-    <Section className="bg-gray-50">
+    <Section className="bg-[#C8102E]">
       <Container>
-        <div className="mx-auto max-w-4xl rounded-3xl bg-[#C8102E] px-8 py-14 text-center text-white md:px-12 md:py-16">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#F8CB34]">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-white">
             Let&apos;s Talk
           </p>
 
@@ -23,11 +20,12 @@ export default function ContactCTA() {
             {contact.cta.description}
           </Body>
 
-          <Link href="/contact">
-            <Button>
-              {contact.cta.button}
-            </Button>
-          </Link>
+          <a
+            href="#contact-form"
+            className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#C8102E] transition hover:bg-gray-100"
+          >
+            {contact.cta.button}
+          </a>
         </div>
       </Container>
     </Section>
